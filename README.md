@@ -16,13 +16,15 @@ $ npm install
 $ npm start
 ```
 
-| Endpoint  | method | popis                      |
-| :-------- | :----- | :------------------------- |
-| /user     | get    | Seznam uživatelů           |
-| /user     | post   | Vytvoření nového uživatele |
-| /user/:id | get    | Jeden uživatel             |
-| /user/:id | delete | Smazání uživatele          |
-| /user/:id | post   | Úprava uživatele           |
+## API
+
+| Endpoint  | HTTP metoda | Popis                      |
+| :-------- | :---------- | :------------------------- |
+| /user     | get         | Seznam uživatelů           |
+| /user     | post        | Vytvoření nového uživatele |
+| /user/:id | get         | Jeden uživatel             |
+| /user/:id | delete      | Smazání uživatele          |
+| /user/:id | post        | Úprava uživatele           |
 
 ## Autor
 
