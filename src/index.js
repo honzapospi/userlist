@@ -25,6 +25,12 @@ server.use(cors.actual);
 // body parser for post data
 server.use(restifyBodyParser());
 
+// logger
+server.use((req, res, next) => {
+  console.log(req.method + ": " + req.url);
+  next();
+});
+
 // routes
 server.get("/user", userListController);
 server.get("/user/:id", userController);
